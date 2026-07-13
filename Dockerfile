@@ -18,13 +18,11 @@ COPY requirements.txt .
 RUN pip install --upgrade pip
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Copy project files
 COPY . .
 
-# Collect static files
-RUN python manage.py collectstatic --noinput
 
 # Expose Django port
 EXPOSE 8000

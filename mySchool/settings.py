@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-xtocahzgy4dq&e8wo)7e-*v21rcty9gzkjna7rk96z6asn-1&0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["13.222.122.31"]
 
 
 # Application definition
@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'mySchool.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'MySQL Community',
+        'NAME': 'mydatabase',
+        'USER': 'admin',
+        'PASSWORD': 'admin1234',
+        'HOST': 'terraform-15ff486ae1abc9659ceab04d1e.cs568i8esoiv.us-east-1.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 

@@ -75,11 +75,11 @@ WSGI_APPLICATION = 'mySchool.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'MySQL Community',
+        'ENGINE': "django.db.backends.mysql",
         'NAME': 'mydatabase',
         'USER': 'admin',
         'PASSWORD': 'admin1234',
-        'HOST': 'terraform-15ff486ae1abc9659ceab04d1e.cs568i8esoiv.us-east-1.rds.amazonaws.com',
+        'HOST': '',
         'PORT': '3306',
     }
 }

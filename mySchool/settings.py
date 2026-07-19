@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'mydatabase',
         'USER': 'admin',
         'PASSWORD': 'admin1234',
-        'HOST': 'terraform-760b07ee8ffbad0aacdb84acff.cs568i8esoiv.us-east-1.rds.amazonaws.com',
+        'HOST': 'terraform-ab5259119381470f46a11d79bc.cs568i8esoiv.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }

@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-xtocahzgy4dq&e8wo)7e-*v21rcty9gzkjna7rk96z6asn-1&0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["13.222.122.31"]
+ALLOWED_HOSTS = ["10.0.2.166"]
 
 
 # Application definition
@@ -74,13 +75,13 @@ WSGI_APPLICATION = 'mySchool.wsgi.application'
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': "django.db.backends.mysql",
-        'NAME': 'mydatabase',
-        'USER': 'admin',
-        'PASSWORD': 'admin1234',
-        'HOST': 'terraform-f13d73a6b02e1b1a90574a54b0.cs568i8esoiv.us-east-1.rds.amazonaws.com',
-        'PORT': '3306',
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "myDatabase",
+        "USER": "admin",
+        "PASSWORD": "admin1234",
+        "HOST": "terraform-31819a8dbe347ff981a23c8a77.cs568i8esoiv.us-east-1.rds.amazonaws.com",
+        "PORT": "3306",
     }
 }
 

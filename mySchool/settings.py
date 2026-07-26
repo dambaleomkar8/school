@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-xtocahzgy4dq&e8wo)7e-*v21rcty9gzkjna7rk96z6asn-1&0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost","34.205.171.134"]
+ALLOWED_HOSTS = ["localhost","44.203.218.41"]
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES = {
         "NAME": "mydatabase",
         "USER": "admin",    
         "PASSWORD": "admin1234",
-        "HOST": "terraform-301432e38e20f607811ae7b497.cs568i8esoiv.us-east-1.rds.amazonaws.com",
+        "HOST": "terraform-372f75d76ed72c2aab2bebc6ac.cs568i8esoiv.us-east-1.rds.amazonaws.com",
         "PORT": "3306",
     }
 }

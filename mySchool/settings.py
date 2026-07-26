@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'mySchool.wsgi.application'
 
 DATABASES = {
     "default": {
-        "ENGINE": "MySQL Community",
+        "ENGINE": "django.db.backends.mysql",
         "NAME": "mydatabase",
         "USER": "admin",
         "PASSWORD": "admin1234",
